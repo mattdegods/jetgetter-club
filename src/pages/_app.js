@@ -62,11 +62,11 @@ const DeadGods = ({ Component, pageProps }) => {
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
         {/* <!-- Primary Meta Tags --> */}
-        <title>DeGods NextJS Template</title>
-        <meta name="title" content={`DeGods NextJS Template`} />
+        <title>JetGetter Club</title>
+        <meta name="title" content={`JetGetter Club`} />
         <meta
           name="description"
-          content={`A DeGods NextJS Template`}
+          content={`Welcome to the JetGetter Club.`}
         />
 
         {/* <!-- Open Graph / Facebook --> */}
@@ -75,7 +75,7 @@ const DeadGods = ({ Component, pageProps }) => {
         <meta property="og:title" content={`DeGods NextJS Template`} />
         <meta
           property="og:description"
-          content={`A DeGods NextJS Template`}
+          content={`Welcome to the JetGetter Club.`}
         />
         <meta
           property="og:image"
@@ -85,10 +85,10 @@ const DeadGods = ({ Component, pageProps }) => {
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={`https://${generalConfig.baseUrl}`} />
-        <meta property="twitter:title" content={`DeGods NextJS Template`} />
+        <meta property="twitter:title" content={`JetGetter Club`} />
         <meta
           property="twitter:description"
-          content={`A DeGods NextJS Template`}
+          content={`Welcome to the JetGetter Club.`}
         />
         <meta
           property="twitter:image"
@@ -103,8 +103,6 @@ const DeadGods = ({ Component, pageProps }) => {
         </WalletProvider>
       </ConnectionProvider>
       <Toaster />
-      {/* StatusPage Popup */}
-      <Script src="https://vczh4gd7bl1x.statuspage.io/embed/script.js"></Script>
     </>
   );
 };

@@ -1,35 +1,31 @@
 module.exports = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx}",
-    "./src/components/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
+      colors: {
+        lounge: {
+          'light-purple': '#a8sdec',
+          'mid-purple' : '#6c25bc',
+          'dark-purple' : '#4f1b88',
+          'floor-purple' : '#7e02e6',
+          'white-couch' : '#e8e7df',
+          'gold' : '#c5942d',
+          'dark-panel' : '#160435',
+          'blueprint' : '#1622dd'
+        }
+      },
       fontFamily: {
-        degods: ['degods'],
-        belygod: ['belygod'],
-        justBreathe: ['justbreathe']
+        yellowtail: ['yellowtail'],
+        jose: ['jose'],
+        caveat: ['caveat'],
+        merriweather: ['merriweather'],
+        opensans: ['opensans']
       },
-      colors:{
-        // Background Colors
-        light: '#FFEFEB',
-        dark: '#0F0F0F',
-        container: '#242424',
-        // Text Colors
-        primary: '#FFFFFF',
-        secondary: '#909090',
-        alt: 'linear-gradient(98.83deg, #FF7C01 7.13%, #FF5301 48.99%, #A819EB 84.14%)',
-        // General DeGod Colors
-        degodWhite: '#FFEFEB',
-        degodOffWhite: '#7772',
-        degodBlack: '#0F0F0F',
-        degodOrange: '#FF8A00',
-        degodYellow: '#FFF200',
-        degodBlue: '#A1B5FF',
-        degodPurple: '#6100FF',
-        degodGreen: "#37B043",
-        degodRed: "#FF3D00",
-      },
+      screens: {
+        'xs': '290px'
+      }
     },
   },
   plugins: [],

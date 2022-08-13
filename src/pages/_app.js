@@ -94,14 +94,14 @@ const DeadGods = ({ Component, pageProps }) => {
           content={`https://${generalConfig.baseUrl}/images/meta.png`}
         />
       </Head>
-      <ConnectionProvider endpoint={endpoint} config={connectionConfig}>
+      {/* <ConnectionProvider endpoint={endpoint} config={connectionConfig}>
         <WalletProvider wallets={wallets} autoConnect>
-          <WalletModalProvider>
+          <WalletModalProvider> */}
             <Component {...pageProps} />
-          </WalletModalProvider>
+          {/* </WalletModalProvider>
         </WalletProvider>
       </ConnectionProvider>
-      <Toaster />
+      <Toaster /> */}
     </>
   );
 };

@@ -48,7 +48,7 @@ const Navbar = ({ menuState }) => {
               target="_blank"
               rel="noreferrer"
             >
-              <Image src={"/images/magiceden.png"} width={45} height={45} alt="magic eden" />
+              <Image src={"/images/magiceden.png"} width={45} height={28} alt="magic eden" />
             </a>
           </div>
         </div>

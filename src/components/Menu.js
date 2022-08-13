@@ -24,8 +24,8 @@ export const Menu = ({ open, handleMenu }) => {
           className={`text-black bg-lounge-white-couch absolute min-h-screen w-screen lg:w-1/3 4xl:w-[40%] top-0 right-0 py-4 px-8 lg:px-12 shadow-2xl`}
         >
           {/* header - laptop/monitor */}
-          <div className="flex lg:justify-between justify-end lg:items-center lg:mt-6">
-            <h2 className={`text-lounge-gold hidden lg:block text-[40px]`}>
+          <div className="flex lg:justify-between justify-end lg:items-start lg:mt-6">
+            <h2 className={`text-lounge-gold lg:text-[40px] pb-10`}>
               JetGetter Club Features
             </h2>
             <div

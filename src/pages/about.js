@@ -52,7 +52,7 @@ const About = () => {
               <div>
                 <p>
                   <em>
-                    For the new wave of travelers. Securing the bag & catching
+                    For the new wave of travelers. Securing the bag &amp; catching
                     vibes. Living life unapologetically.
                   </em>
                   <br />
@@ -73,8 +73,8 @@ const About = () => {
                     be a tall task let alone another country or around the
                     world. As the tourism industry bounces back and grows, we
                     believe travel should be accessible to everyone. Others may
-                    want to keep it as a fantasy or believe it's something only
-                    wealthy or retired people can do. Fuck that. We're here to
+                    want to keep it as a fantasy or believe it&apos;s something only
+                    wealthy or retired people can do. Fuck that. We&apos;re here to
                     see everyone experience the world.
                     <br />
                     <br />
@@ -83,7 +83,7 @@ const About = () => {
                     With over a decade facilitating experiences around the world
                     & generations in the travel industry, we are pioneering
                     travel in Web3. While others just look to make a profit &
-                    the rest want to keep it out of reach, we're a group of
+                    the rest want to keep it out of reach, we&apos;re a group of
                     passionate travelers that wants to connect the world. Our
                     philosophy is simple: Traveling will change your life.
                     <br />
@@ -181,24 +181,24 @@ const About = () => {
                 // data-class-out="translate-x-32 opacity-0"
                 >
                   <p>
-                    It's a lifestyle, rep your PFP online & do JetGetter shit
+                    It&apos;s a lifestyle, rep your PFP online & do JetGetter shit
                     IRL.
                     <br />
                     <br />
                   </p>
                   <p>
-                    Simply put, you're a dope individual that knows how to enjoy
-                    life. You're a tastemaker. You're open minded. You want to
+                    Simply put, you&apos;re a dope individual that knows how to enjoy
+                    life. You&apos;re a tastemaker. You&apos;re open minded. You want to
                     experience the most you can in this life. You like good
                     food. You like to learn about other cultures & you use all
                     these things to shape your perspective in life. Lastly, you
                     understand the balance between wealth and enjoying the
-                    fruits of your labor & if you're none of these things but
-                    want to learn, we're here to welcome you. <br />
+                    fruits of your labor & if you&apos;re none of these things but
+                    want to learn, we&apos;re here to welcome you. <br />
                     <br />
                   </p>
                   <p>
-                    There's much more to being a JetGetter but we'll let our
+                    There&apos;s much more to being a JetGetter but we&apos;ll let our
                     community determine what that means.
                     <br />
                     <br />
@@ -226,7 +226,7 @@ const About = () => {
                         <p className="py-4">
                           Our founder Maanz comes from a background in business
                           development in startup & tech companies but travel
-                          changed his life. He's also explored independent
+                          changed his life. He&apos;s also explored independent
                           ventures in the music industry, ecommerce, and travel
                           industry ranging from social media influencer to
                           creating merchandise to booking shows. His successes
@@ -275,7 +275,7 @@ const About = () => {
                           travel industry run deep. He started his career
                           working with his dad to facilitate travel for
                           Bollywood celebrities in India. With over 40 years of
-                          experience in travel, he's been facilitating these
+                          experience in travel, he&apos;s been facilitating these
                           trips for individuals and groups of people for over a
                           decade in web2 and also has experience building
                           booking systems.

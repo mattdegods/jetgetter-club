@@ -216,8 +216,8 @@ const About = () => {
                   <div>
                     <div className="md:grid md:grid-cols-3 md:gap-3">
                       <div className="my-auto py-4">
-                        <div className="rounded-full overflow-clip md:w-[200px] w-[150px]">
-                          <Image src={"/images/9460-dead.png"} alt="airmaanz" />
+                        <div className="md:w-[200px] mx-auto">
+                          <Image src={"/images/9460-dead.png"} width={150} height={150} alt="airmaanz" />
                         </div>
                       </div>
                       <div className="col-span-2">
@@ -244,8 +244,8 @@ const About = () => {
                         </p>
                       </div>
                       <div className="my-auto py-4">
-                        <div className="rounded-full overflow-clip md:w-[200px] w-[150px]">
-                          <Image src={"/images/28G.jpeg"} alt="28G" />
+                        <div className="md:w-[200px] mx-auto">
+                          <Image src={"/images/28G.jpeg"} width={150} height={150} alt="28G" />
                         </div>
                       </div>
                       <div className="col-span-2">
@@ -262,8 +262,8 @@ const About = () => {
                         </p>
                       </div>
                       <div className="my-auto py-4">
-                        <div className="rounded-full overflow-clip md:w-[200px] w-[150px]">
-                          <Image src={"/images/travel_og.jpeg"} alt="Travel OG" />
+                        <div className="md:w-[200px] mx-auto">
+                          <Image src={"/images/travel_og.jpeg"} width={150} height={150} alt="Travel OG" />
                         </div>
                       </div>
                       <div className="col-span-2">
@@ -283,8 +283,8 @@ const About = () => {
                         </p>
                       </div>
                       <div className="my-auto py-4">
-                        <div className="rounded-full overflow-clip md:w-[200px] w-[150px]">
-                          <Image src={"/images/6695-dead.jpg"} alt="matt" />
+                        <div className="md:w-[200px] mx-auto">
+                          <Image src={"/images/6695-dead.jpg"} width={150} height={150} alt="matt" />
                         </div>
                       </div>
                       <div className="col-span-2">

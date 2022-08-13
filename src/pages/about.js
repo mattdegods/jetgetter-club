@@ -109,7 +109,7 @@ const About = () => {
                 // data-class-out="translate-x-32 opacity-0"
                 >
                   <p>
-                    <em>"What is JetGetter Club ?"</em>
+                    <em>&quot;What is JetGetter Club ?&quot;</em>
                     <br />
                     <br />
                   </p>
@@ -119,7 +119,7 @@ const About = () => {
                     <br />
                   </p>
                   <p>
-                    <em>"How ?"</em>
+                    <em>&quot;How ?&quot;</em>
                     <br />
                     <br />
                   </p>
@@ -164,8 +164,8 @@ const About = () => {
                     travel and more people need to be invested into crypto. Our
                     goal is to help onboard in both ways while we catch vibes
                     together. Life is about balance and doing the things that
-                    you love, even if you don't travel if you believe in that
-                    ethos, you're in the right place.
+                    you love, even if you don&apos;t travel if you believe in that
+                    ethos, you&apos;re in the right place.
                     <br />
                     <br />
                   </p>
@@ -256,7 +256,7 @@ const About = () => {
                           real Gs move in silence ...lol. Her background is in
                           tech, philanthropy and nonprofit building teams,
                           creating strategy and partnering with CEOs & Directors
-                          to get shit done. She's currently a project manager in
+                          to get shit done. She&apos;s currently a project manager in
                           Web3 at a leading brand within the Solana ecosystem.
                         </p>
                       </div>
@@ -295,7 +295,7 @@ const About = () => {
                           He started out in the engineering world working a
                           stale government job and is now a full-time Web3 dev,
                           working with the likes of DeGods, Mickey DeGods, and,
-                          of course, us. He's traveled internationally a few
+                          of course, us. He&apos;s traveled internationally a few
                           times but is inspired through this project to push
                           further outside of his comfort zone and see the world.
                         </p>

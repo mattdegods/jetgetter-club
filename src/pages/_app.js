@@ -71,7 +71,7 @@ const DeadGods = ({ Component, pageProps }) => {
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content={`https://${generalConfig.baseUrl}`} />
-        <meta property="og:title" content={`DeGods NextJS Template`} />
+        <meta property="og:title" content={`JetGetter Club`} />
         <meta
           property="og:description"
           content={`Welcome to the JetGetter Club.`}

@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Image from "next/image";
 
 const Home = () => {
   return (
@@ -29,19 +30,19 @@ const Home = () => {
             {/* twitter */}
             <div className="rounded-lg mx-2">
               <a href="https://twitter.com/jetgetterclub">
-                <img src={"/images/twitter.png"} width={50} alt=""></img>
+                <Image src={"/images/twitter.png"} width={50} height={50} alt="" />
               </a>
             </div>
             {/* discord */}
             <div className="rounded-lg mx-2">
               <a href="https://discord.gg/jetgetterclub">
-                <img src={"/images/discord.png"} width={50} alt=""></img>
+                <Image src={"/images/discord.png"} width={50} height={50} alt="" />
               </a>
             </div>
             {/* magic eden */}
             <div className="rounded-lg mx-2 p-3">
               <a href="https://magiceden.io/marketplace/jetgetter">
-                <img src={"/images/magiceden.png"} width={45} alt=""></img>
+                <Image src={"/images/magiceden.png"} width={45} height={45} alt="" />
               </a>
             </div>
           </div>

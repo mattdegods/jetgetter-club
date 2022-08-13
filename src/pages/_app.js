@@ -15,11 +15,10 @@ import {
   TorusWalletAdapter,
 } from "@solana/wallet-adapter-wallets";
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
-import { tokenAuthFetchMiddleware } from "@strata-foundation/web3-token-auth";
-import { getToken } from "../utils";
+// import { tokenAuthFetchMiddleware } from "@strata-foundation/web3-token-auth";
+// import { getToken } from "../utils";
 import DEFAULTS from "../globals";
 import Head from "next/head";
-import Script from "next/script";
 import { Toaster } from "react-hot-toast";
 import generalConfig from "../configs/general.config";
 
@@ -49,13 +48,13 @@ const DeadGods = ({ Component, pageProps }) => {
     [network]
   );
 
-  const connectionConfig = {
-      commitment: "confirmed",
-      fetchMiddleware: tokenAuthFetchMiddleware({
-        tokenExpiry: 180000,
-        getToken,
-      }),
-    };
+  // const connectionConfig = {
+  //     commitment: "confirmed",
+  //     fetchMiddleware: tokenAuthFetchMiddleware({
+  //       tokenExpiry: 180000,
+  //       getToken,
+  //     }),
+  //   };
 
   return (
     <>

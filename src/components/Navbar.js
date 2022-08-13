@@ -1,6 +1,7 @@
 
 import { useState, useEffect } from "react";
 import DeMenu from "./Menu"
+import Image from "next/image";
 
 const Navbar = ({ menuState }) => {
 
@@ -27,7 +28,7 @@ const Navbar = ({ menuState }) => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={"/images/twitter.png"} width={50} alt="twitter"></img>
+              <Image src={"/images/twitter.png"} width={50} height={50} alt="twitter" />
             </a>
           </div>
           {/* discord */}
@@ -37,7 +38,7 @@ const Navbar = ({ menuState }) => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={"/images/discord.png"} width={50} alt="discord"></img>
+              <Image src={"/images/discord.png"} width={50} height={50} alt="discord" />
             </a>
           </div>
           {/* magic eden */}
@@ -47,7 +48,7 @@ const Navbar = ({ menuState }) => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={"/images/magiceden.png"} width={45} alt="magic eden"></img>
+              <Image src={"/images/magiceden.png"} width={45} height={45} alt="magic eden" />
             </a>
           </div>
         </div>

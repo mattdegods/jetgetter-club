@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import { Link } from "react-scroll";  // smooth scrolling
+import Image from "next/image";
 
 const About = () => {
 
@@ -216,7 +217,7 @@ const About = () => {
                     <div className="md:grid md:grid-cols-3 md:gap-3">
                       <div className="my-auto py-4">
                         <div className="rounded-full overflow-clip md:w-[200px] w-[150px]">
-                          <img src={"/images/9460-dead.png"} alt="airmaanz" />
+                          <Image src={"/images/9460-dead.png"} alt="airmaanz" />
                         </div>
                       </div>
                       <div className="col-span-2">
@@ -244,7 +245,7 @@ const About = () => {
                       </div>
                       <div className="my-auto py-4">
                         <div className="rounded-full overflow-clip md:w-[200px] w-[150px]">
-                          <img src={"/images/28G.jpeg"} alt="28G" />
+                          <Image src={"/images/28G.jpeg"} alt="28G" />
                         </div>
                       </div>
                       <div className="col-span-2">
@@ -262,7 +263,7 @@ const About = () => {
                       </div>
                       <div className="my-auto py-4">
                         <div className="rounded-full overflow-clip md:w-[200px] w-[150px]">
-                          <img src={"/images/travel_og.jpeg"} alt="Travel OG" />
+                          <Image src={"/images/travel_og.jpeg"} alt="Travel OG" />
                         </div>
                       </div>
                       <div className="col-span-2">
@@ -283,7 +284,7 @@ const About = () => {
                       </div>
                       <div className="my-auto py-4">
                         <div className="rounded-full overflow-clip md:w-[200px] w-[150px]">
-                          <img src={"/images/6695-dead.jpg"} alt="matt" />
+                          <Image src={"/images/6695-dead.jpg"} alt="matt" />
                         </div>
                       </div>
                       <div className="col-span-2">
